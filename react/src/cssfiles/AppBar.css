@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.co2?family=Archivo:ital,ht@0,100..900;1,100..900&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#body
+{
+    display:unset;
+}
+.AppBar {
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    justify-content: space-around;
+    user-select: none;
+}
+.appname
+{
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: large;
+}
+.logohw
+{
+    height: 8vh;
+    width: 8vh;
+}
+.logohw1
+{
+    height: 4vh;
+    width: 4vh;
+}
+.textwek{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.searchbar
+{
+    height: 7vh;
+    width: 50vw;
+    position: relative;
+    padding-left: 15%;
+    background-color: #001219;
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.searchbar::placeholder
+{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.logohw12
+{
+    height: 5vh;
+    width: 5vh;
+    border: solid  0.6vh white;
+    border-radius: 100%;
+}

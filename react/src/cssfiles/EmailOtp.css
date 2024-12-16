@@ -1,0 +1,16 @@
+.EmailOtp
+{
+    user-select: none;
+    height: 80vh;
+    width: 70vw;
+}
+.EmailOtpMain
+{
+    position: relative;
+    justify-content: center;
+    top: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}

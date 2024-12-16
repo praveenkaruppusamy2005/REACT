@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Itim&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.LoginPage
+{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+}
+.LoginMain
+{
+    user-select: none;
+}
+.LoginPageinfo
+{
+    position: relative;
+    bottom: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    position:relative;
+    font-size: large;
+    bottom: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.LoginPagemethods
+{
+    height: 40vh;
+    width: 60vw;
+    position: absolute;
+    top:20%
+}
+.inside_methods {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 6vh;
+    width: 100%;
+    position: relative;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.inside_methods:hover{
+background-color: white;
+color: black;
+border:2px solid red;
+}
+.imgtag
+{
+    height: 7vh;
+    width: 7vh;
+    padding-right: 8%;
+    position: relative;
+    top:15%;
+}
+.ptag {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.90rem;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    right: 5%;
+}
+
+@media (min-width: 768px) {
+    .inside_methods {
+        flex-direction: row;
+        width: 60%;
+    }
+
+    .ptag {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .inside_methods {
+        width: 40%;
+    }
+
+    .ptag {
+        font-size: 0.90rem;
+    }
+}
+.inside_new
+{
+    position: relative;
+    width: 100%;
+}
+.d{
+    border: none;
+    font-size: 0.75rem;
+    color: grey;
+}
+.d:hover
+{
+    background-color: black;
+    color:grey;
+    border: none;
+    font-size: 0.75rem;
+}
+.anchortag
+{
+    text-decoration: underline;
+    color: white;
+    font-weight: 900;
+}
+.anchortag:hover{
+    color:red;
+    font-weight: 900;
+}
+
+.ptag1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 0.90rem;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    right: 5%;
+}
